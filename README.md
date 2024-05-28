@@ -34,12 +34,12 @@ This is a backend application for a spam number.
 - `node seeders/seed.js` : the initial set of data that is inserted into the database when it's first set up or when it's reset. Seeds are used to populate the database with sample or default data that can be used for testing, development, or to provide initial content for an application.
 
 ## Add .env file
-- `PORT=
-DATABASE_HOST=
-DATABASE_USER=
-DATABASE_PASSWORD=
-DATABASE_NAME=s
-JWT_SECRET=` : assign values as per your requirement
+- `PORT=3000`
+- `DATABASE_HOST=localhost`
+-`DATABASE_USER=hello`
+-`DATABASE_PASSWORD=123456`
+-`DATABASE_NAME=mydb`
+-`JWT_SECRET=spam_all` : assign values as per your requirement
 # API Endpoints
 
 ## Authentication
