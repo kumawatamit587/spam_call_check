@@ -36,10 +36,10 @@ This is a backend application for a spam number.
 ## Add .env file
 - `PORT=3000`
 - `DATABASE_HOST=localhost`
--`DATABASE_USER=hello`
--`DATABASE_PASSWORD=123456`
--`DATABASE_NAME=mydb`
--`JWT_SECRET=spam_all` : assign values as per your requirement
+- `DATABASE_USER=hello`
+- `DATABASE_PASSWORD=123456`
+- `DATABASE_NAME=mydb`
+- `JWT_SECRET=spam_all` : assign values as per your requirement
 # API Endpoints
 
 ## Authentication
