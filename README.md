@@ -17,6 +17,8 @@ This is a backend application for a spam number.
 - MYSQL
 - JSON Web Tokens (JWT) for authentication
 
+
+
 ## Installation
 
 1. Clone the repository:
@@ -24,7 +26,20 @@ This is a backend application for a spam number.
    ```bash
    git clone https://github.com/kumawatamit587/spam_call_check.git
 
+## After clone require dependency
 
+- `npm init`
+- `npm install express sequelize mysql2 bcryptjs jsonwebtoken dotenv @faker-js/faker`
+- `node createDatabase.js` : for creating data to the local system.
+- `node seeders/seed.js` : the initial set of data that is inserted into the database when it's first set up or when it's reset. Seeds are used to populate the database with sample or default data that can be used for testing, development, or to provide initial content for an application.
+
+## Add .env file
+- `PORT=
+DATABASE_HOST=
+DATABASE_USER=
+DATABASE_PASSWORD=
+DATABASE_NAME=s
+JWT_SECRET=` : assign values as per your requirement
 # API Endpoints
 
 ## Authentication
